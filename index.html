@@ -317,7 +317,7 @@ a{color:inherit;text-decoration:none}
 <!-- NAV -->
 <nav class="nav">
   <a href="#top" class="logo">
-    <img src="./logo/img1.png" alt="Fiber One" style="height: 30px; width: auto; filter: brightness(0) invert(1);">
+    <img src="./logo/img1.png" alt="Fiber One" style="height: 30px; width: auto;">
   </a>
   <div class="nav-links">
     <a href="#work">Work</a>
@@ -549,7 +549,7 @@ a{color:inherit;text-decoration:none}
     <p class="live-sub reveal">This is an actual project running below. Click, type, break it — it's yours to explore.</p>
 
     <div class="demo-tabs reveal">
-       <button class="demo-tab" onclick="setDemo('https://sla.fob.net.ng/', this)">SLA WORKSPACE</button>
+       <button class="demo-tab active" onclick="setDemo('https://sla.fob.net.ng/', this)">SLA WORKSPACE</button>
       <button class="demo-tab" onclick="setDemo('https://machine.fob.net.ng/', this)">MACHINE SERVICES</button>
 
     </div>
@@ -558,13 +558,13 @@ a{color:inherit;text-decoration:none}
     <div class="iframe-wrap reveal">
       <div class="iframe-bar">
         <div class="dots"><span></span><span></span><span></span></div>
-        <input type="text" class="iframe-url-input" id="demoUrlInput" value="auth.html" placeholder="Enter URL or paste link..." onkeypress="if(event.key==='Enter') updateDemoFrame()">
+        <input type="text" class="iframe-url-input" id="demoUrlInput" value="https://sla.fob.net.ng/" placeholder="Enter URL or paste link..." onkeypress="if(event.key==='Enter') updateDemoFrame()">
         <div class="iframe-actions">
           <button class="iframe-btn" onclick="updateDemoFrame()">Go</button>
           <button class="iframe-btn" onclick="document.getElementById('demoFrame').contentWindow.location.reload();">↻</button>
         </div>
       </div>
-      <iframe id="demoFrame" src="auth.html" title="Live project demo" loading="lazy"></iframe>
+      <iframe id="demoFrame" src="https://sla.fob.net.ng/" title="Live project demo" loading="lazy"></iframe>
     </div>
     <p class="iframe-note">Want your own version? <a href="#contact">Let's build it →</a></p>
   </div>
